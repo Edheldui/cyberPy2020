@@ -49,6 +49,11 @@ childhood = ['on the Street, unsupervised', 'in a safe corporate suburbia', 'in 
              'in a small village far from the city', 'in a large arcology', 'in a pirate pack',
              'in a research facility']
 
-family_tragedy = []
+family_tragedy = ['lost everything through betrayal.', 'lost everything through bad management.', 'got exiled.',
+                  'is imprisoned and you alone escaped.', 'vanished. And you are the only remaining member.',
+                  'was murdered and you are the only survivor.', 'is involved in a crime organization.',
+                  'was scattered to the winds due to misfortune.', 'is cursed with a hereditary feud.',
+                  'had a huge debt. Now you have to repay it.']
 
-siblings = []
+siblings = ['dislikes you.', 'likes you.', "doesn't care about you", 'worships you as a hero.', 'hates you.']
+
