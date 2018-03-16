@@ -19,7 +19,7 @@ lifepath = {'name': '',
             'siblings': ''
             }
 
-# appearance lists. Elements on these listd will appear in the character customization if the player decides to create
+# appearance lists. Elements on these lists will appear in the character customization if the player decides to create
 # a custom character.
 
 clothes = ['biker leathers', 'blue jeans', 'corporate suit', 'jumpsuit', 'miniskirt',

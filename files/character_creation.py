@@ -88,6 +88,27 @@ else:
     player_selection(ccv.hairstyle, ccv.lifepath, 'hairstyle', '### HAIRSTYLE ###')
     player_selection(ccv.accessories, ccv.lifepath, 'accessories', '### ACCESSORIES ###')
 
+# Family background setup.
+
+if randomized:
+
+    # family ranking
+    selection = dice.roll(1, 10)
+    ccv.lifepath['family_ranking'] = ccv.family_ranking[selection - 1]
+
+    # parents
+    selection = dice.roll(1, 2)
+    ccv.lifepath['parents'] = ccv.parents[selection - 1]
+
+    # if something happened to parents, set what happened
+    if ccv.lifepath['parents'] == 'something happened':
+        selection = dice.roll(1, 10)
+        ccv.lifepath['something_happened'] = ccv.something_happened[selection - 1]
+
+    # set current family status
+    selection = dice.roll(1, 2)
+    ccv.lifepath['family_status'] == ccv.family_status[selection - 1]
+
 
 def main():
 
@@ -102,3 +123,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
