@@ -107,7 +107,7 @@ if randomized:
 
     # set current family status
     selection = dice.roll(1, 2)
-    ccv.lifepath['family_status'] == ccv.family_status[selection - 1]
+    ccv.lifepath['family_status'] = ccv.family_status[selection - 1]
 
 
 def main():

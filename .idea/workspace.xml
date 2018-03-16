@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adeb848e-29e4-495d-8514-1aedd2834e9e" name="Default" comment="added family ranking part1">
-      <change beforePath="$PROJECT_DIR$/.idea/cyberPy2020.iml" afterPath="$PROJECT_DIR$/.idea/cyberPy2020.iml" />
+    <list default="true" id="adeb848e-29e4-495d-8514-1aedd2834e9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/files/character_creation.py" afterPath="$PROJECT_DIR$/files/character_creation.py" />
-      <change beforePath="$PROJECT_DIR$/files/character_creation_variables.py" afterPath="$PROJECT_DIR$/files/character_creation_variables.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
       <file leaf-file-name="character_creation_variables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
+            <state relative-caret-position="751">
               <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
@@ -29,7 +27,7 @@
       <file leaf-file-name="character_creation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/files/character_creation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
+            <state relative-caret-position="751">
               <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
@@ -55,6 +53,25 @@
     <option name="y" value="-14" />
     <option name="width" value="1318" />
     <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyStatementEffectInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,7 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -161,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521197190364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added family ranking part 1">
+      <created>1521200272602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521200272602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -192,7 +216,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trying PyCharm Integration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying PyCharm Integration." />
+    <MESSAGE value="added family ranking part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added family ranking part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -250,7 +275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
+        <state relative-caret-position="751">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
@@ -258,7 +283,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/files/character_creation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
+        <state relative-caret-position="751">
           <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
