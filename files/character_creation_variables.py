@@ -55,5 +55,5 @@ family_tragedy = ['lost everything through betrayal.', 'lost everything through 
                   'was scattered to the winds due to misfortune.', 'is cursed with a hereditary feud.',
                   'had a huge debt. Now you have to repay it.']
 
-siblings = ['dislikes you.', 'likes you.', "doesn't care about you", 'worships you as a hero.', 'hates you.']
+siblings = ['dislike you.', 'like you.', "don't care about you", 'worship you as a hero.', 'hate you.']
 

@@ -105,9 +105,22 @@ if randomized:
         selection = dice.roll(1, 10)
         ccv.lifepath['something_happened'] = ccv.something_happened[selection - 1]
 
-    # set current family status
+    # current family status
     selection = dice.roll(1, 2)
     ccv.lifepath['family_status'] = ccv.family_status[selection - 1]
+
+    # if family in danger, set what's happening
+    if ccv.lifepath['family_status'] == 'in danger':
+        selection = dice.roll(1, 10)
+        ccv.lifepath['family_tragedy'] = ccv.family_tragedy[selection -1]
+
+    # childhood
+    selection = dice.roll(1, 10)
+    ccv.lifepath['childhood'] = ccv.childhood[selection - 1]
+
+    # siblings
+    selection = dice.roll(1, 5)
+    ccv.lifepath['siblings'] = ccv.siblings[selection - 1]
 
 
 def main():
