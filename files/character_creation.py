@@ -91,6 +91,7 @@ else:
 
 def main():
 
+    print('\n')
     print('Wanted: {}'.format(ccv.lifepath['name']))
     print('Sex: {}'.format(ccv.lifepath['gender']))
     print('Age: about {}'.format(ccv.lifepath['age']))
