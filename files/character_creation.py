@@ -13,10 +13,10 @@ import character_creation_variables as ccv  # contains lists and dictionaries fo
 def player_selection(options_list, character_dict, dict_key, title=''):
     """
     args:
-        title: title to print before listing the options
-        options_list: list from character_creation_variables.py containg the various options
-        character_dict: dictionary containing the key i need
+        options_list: list from character_creation_variables.py containing the various options
+        character_dict: dictionary containing the key i need, found in character_creation_variables.py
         dict_key: key for character_dict corresponding to the value i want to set.
+        title: title to print before listing the options
     """
     print(title)
     for each_option in range(len(options_list)):
@@ -112,7 +112,7 @@ if randomized:
     # if family in danger, set what's happening
     if ccv.lifepath['family_status'] == 'in danger':
         selection = dice.roll(1, 10)
-        ccv.lifepath['family_tragedy'] = ccv.family_tragedy[selection -1]
+        ccv.lifepath['family_tragedy'] = ccv.family_tragedy[selection - 1]
 
     # childhood
     selection = dice.roll(1, 10)
@@ -136,4 +136,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
