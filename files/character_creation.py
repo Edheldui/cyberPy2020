@@ -27,7 +27,7 @@ def player_selection(options_list, character_dict, dict_key, title=''):
             character_dict[dict_key] = options_list[p_selection - 1]
             break
         else:
-            print('You must enter a number between 1 and {}.'.format(len(options_list)))
+            print(f'You must enter a number between 1 and {len(options_list)}')
     print('\n')
 
 
@@ -53,7 +53,7 @@ print('\n')
 ccv.lifepath['name'] = input('Name your character: ').title()
 
 while True:
-    gender_selection = input('Is {} Male or Female? '.format(ccv.lifepath['name'])).title()
+    gender_selection = input(f"Is {ccv.lifepath['name']} Male or Female?").title()
     gender_selection.upper()
     if gender_selection == 'M' or gender_selection == 'MALE' or gender_selection == 'F' or gender_selection == 'FEMALE':
         ccv.lifepath['gender'] = gender_selection
@@ -62,7 +62,7 @@ while True:
         print('Please enter [M]ale or [F]emale.')
 
 while True:
-    age_selection = int(input('How old is {}? '.format(ccv.lifepath['name'])))
+    age_selection = int(input(f"How old is {ccv.lifepath['name']}?"))
     if age_selection > 16:
         ccv.lifepath['age'] = age_selection
         break
@@ -126,12 +126,12 @@ if randomized:
 def main():
 
     print('\n')
-    print('Wanted: {}'.format(ccv.lifepath['name']))
-    print('Sex: {}'.format(ccv.lifepath['gender']))
-    print('Age: about {}'.format(ccv.lifepath['age']))
+    print(f"Wanted: {ccv.lifepath['name']}")
+    print(f"Sex: {ccv.lifepath['gender']}")
+    print(f"Age: about {ccv.lifepath['age']}")
     print('General description:')
-    print('Wears {} and {}.'.format(ccv.lifepath['clothes'], ccv.lifepath['accessories']))
-    print('Has {} hair.'.format(ccv.lifepath['hairstyle']))
+    print(f"Wears {ccv.lifepath['clothes']} and {ccv.lifepath['accessories']}.")
+    print(f"Has {ccv.lifepath['hairstyle']} hair.")
 
 
 if __name__ == '__main__':
