@@ -83,4 +83,3 @@ feelings_about_people = ['neutral', 'you like almost everyone', 'you hate almost
 
 most_valuable_possession = ['a gun', 'a hammer', 'a piece of clothing', 'a photograph', 'a book', 'a diary',
                             'a recording', 'a trumpet', 'a toy car', 'a letter']
-
