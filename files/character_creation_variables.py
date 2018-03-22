@@ -16,7 +16,13 @@ lifepath = {'name': '',
             'family_status': '',
             'childhood': '',
             'family_tragedy': '',
-            'siblings': ''
+            'siblings': '',
+
+            'personality_traits': '',
+            'most_valuable_person': '',
+            'most_valuable_thing': '',
+            'feelings_about_people': '',
+            'most_valuable_possession': ''
             }
 
 # appearance lists. Elements on these lists will appear in the character customization if the player decides to create
@@ -56,4 +62,25 @@ family_tragedy = ['lost everything through betrayal.', 'lost everything through 
                   'had a huge debt. Now you have to repay it.']
 
 siblings = ['dislike you.', 'like you.', "don't care about you", 'worship you as a hero.', 'hate you.']
+
+# personal motivations lists
+
+personality_traits = ['shy and secretive', 'rebellious, antisocial and violent', 'arrogant, proud and aloof',
+                      'moody, rash and headstrong', 'picky, flussy and nervous', 'stable and serious',
+                      'silly and fluffheaded', 'sneaky and deceptive', 'intellectual and detached',
+                      'friendly and outgoing']
+
+most_valuable_person = ['your parents', 'your siblings', 'your lover', 'your friend', 'yourself', 'your pet',
+                        'your mentor', 'no one']
+
+most_valuable_thing = ['money', 'honor', 'your word', 'honesty', 'knowledge', 'vengeance', 'love', 'power',
+                       'having a good time', 'friendship']
+
+feelings_about_people = ['neutral', 'you like almost everyone', 'you hate almost everyone',
+                         'people are tools to be used and discarded at will', 'every person is a valuable individual',
+                         'people are obstacles', 'people are untrustworthy',
+                         "wipe 'em all out and give the place to cockroaches", 'people are wonderful']
+
+most_valuable_possession = ['a gun', 'a hammer', 'a piece of clothing', 'a photograph', 'a book', 'a diary',
+                            'a recording', 'a trumpet', 'a toy car', 'a letter']
 

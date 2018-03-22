@@ -31,6 +31,11 @@ def player_selection(options_list, character_dict, dict_key, title=''):
     print('\n')
 
 
+def random_selection(options_list, character_dict, dict_key):
+    r_selection = dice.roll(1, len(options_list))
+    character_dict[dict_key] = options_list[r_selection - 1]
+
+
 # General setup
 
 randomized = False  # flag to check if the player chooses a randomized character creation or not
@@ -75,12 +80,9 @@ print('\n')
 
 if randomized:
 
-    selection = dice.roll(1, 10)
-    ccv.lifepath['clothes'] = ccv.clothes[selection - 1]
-    selection = dice.roll(1, 10)
-    ccv.lifepath['hairstyle'] = ccv.hairstyle[selection - 1]
-    selection = dice.roll(1, 10)
-    ccv.lifepath['accessories'] = ccv.accessories[selection - 1]
+    random_selection(ccv.clothes, ccv.lifepath, 'clothes')
+    random_selection(ccv.hairstyle, ccv.lifepath, 'hairstyle')
+    random_selection(ccv.accessories, ccv.lifepath, 'accessories')
 
 else:
 
@@ -94,40 +96,33 @@ else:
 if randomized:
 
     # family ranking
-    selection = dice.roll(1, 10)
-    ccv.lifepath['family_ranking'] = ccv.family_ranking[selection - 1]
+    random_selection(ccv.family_ranking, ccv.lifepath, 'family_ranking')
 
     # parents
-    selection = dice.roll(1, 2)
-    ccv.lifepath['parents'] = ccv.parents[selection - 1]
+    random_selection(ccv.parents, ccv.lifepath, 'parents')
 
     # if something happened to parents, set what happened
     if ccv.lifepath['parents'] == 'something happened':
-        selection = dice.roll(1, 10)
-        ccv.lifepath['something_happened'] = ccv.something_happened[selection - 1]
+        random_selection(ccv.something_happened, ccv.lifepath, 'something_happened')
     else:
         # ccv.lifepath['parents'] is already 'both living'
         ccv.lifepath['something_happened'] = 'N/A'
 
     # current family status
-    selection = dice.roll(1, 2)
-    ccv.lifepath['family_status'] = ccv.family_status[selection - 1]
+    random_selection(ccv.family_status, ccv.lifepath, 'family_status')
 
     # if family in danger, set what's happening
     if ccv.lifepath['family_status'] == 'in danger':
-        selection = dice.roll(1, 10)
-        ccv.lifepath['family_tragedy'] = ccv.family_tragedy[selection - 1]
+        random_selection(ccv.family_tragedy, ccv.lifepath, 'family_tragedy')
     else:
         # ccv.lifepath['family_status'] is already 'ok, despite everything'
         ccv.lifepath['family_tragedy'] = 'N/A'
 
     # childhood
-    selection = dice.roll(1, 10)
-    ccv.lifepath['childhood'] = ccv.childhood[selection - 1]
+    random_selection(ccv.childhood, ccv.lifepath, 'childhood')
 
     # siblings
-    selection = dice.roll(1, 5)
-    ccv.lifepath['siblings'] = ccv.siblings[selection - 1]
+    random_selection(ccv.siblings, ccv.lifepath, 'siblings')
 
 else:
 
@@ -159,6 +154,25 @@ else:
 
     # siblings
     player_selection(ccv.siblings, ccv.lifepath, 'siblings', '### SIBLINGS ###')
+
+# personal motivations
+
+if randomized:
+
+    # personality traits
+    random_selection(ccv.personality_traits, ccv.lifepath, 'personality_traits')
+
+    # most_valuable_person
+    random_selection(ccv.most_valuable_person, ccv.lifepath, 'most_valuable_person')
+
+    # most_valuable_thing
+    random_selection(ccv.most_valuable_thing, ccv.lifepath, 'most_valuable_thing')
+
+    # feelings_about_people
+    random_selection(ccv.feelings_about_people, ccv.lifepath, 'feelings_about_people')
+
+    # most_valuable_possession
+    random_selection(ccv.most_valuable_possession, ccv.lifepath, 'most_valuable_possession')
 
 
 def main():
