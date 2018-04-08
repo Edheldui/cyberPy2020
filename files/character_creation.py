@@ -37,7 +37,6 @@ def random_selection(options_list, character_dict, dict_key):
 
 
 # General setup
-
 randomized = False  # flag to check if the player chooses a randomized character creation or not
 
 while True:
