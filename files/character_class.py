@@ -26,32 +26,3 @@ class Character:
         self.most_valuable_thing = None
         self.feelings_about_people = None
         self.most_valuable_possession = None
-
-    def set_general(self, name, gender, age):
-        self.name = name.title()
-        self.gender = gender
-        self.age = age
-
-    def set_look(self, clothes, hairstyle, accessories):
-        self.clothes = clothes
-        self.hairstyle = hairstyle
-        self.accessories = accessories
-
-    def set_family_background(self, family_ranking, parents, something_happened, family_status, childhood,
-                              family_tragedy, siblings):
-        self.family_ranking = family_ranking
-        self.parents = parents
-        self.something_happened = something_happened
-        self.family_status = family_status
-        self.childhood = childhood
-        self.family_tragedy = family_tragedy
-        self.siblings = siblings
-
-    def set_personal_motivation(self, personality_traits, most_valuable_person, most_valuable_thing,
-                                feelings_about_people, most_valuable_possession):
-        self.personality_traits = personality_traits
-        self.most_valuable_person = most_valuable_person
-        self.most_valuable_thing = most_valuable_thing
-        self.feelings_about_people = feelings_about_people
-        self.most_valuable_possession = most_valuable_possession
-

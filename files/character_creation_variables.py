@@ -1,30 +1,5 @@
 # This module contains all the variables used in character_creation.py
 
-# dictionary containing all the fields about appearance and clothing
-
-lifepath = {'name': '',
-            'gender': '',
-            'age': '',
-
-            'clothes': '',
-            'hairstyle': '',
-            'accessories': '',
-
-            'family_ranking': '',
-            'parents': '',
-            'something_happened': '',
-            'family_status': '',
-            'childhood': '',
-            'family_tragedy': '',
-            'siblings': '',
-
-            'personality_traits': '',
-            'most_valuable_person': '',
-            'most_valuable_thing': '',
-            'feelings_about_people': '',
-            'most_valuable_possession': ''
-            }
-
 # appearance lists. Elements on these lists will appear in the character customization if the player decides to create
 # a custom character.
 
