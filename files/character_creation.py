@@ -174,6 +174,23 @@ if randomized:
     # most_valuable_possession
     random_selection(ccv.most_valuable_possession, mc, 'most_valuable_possession')
 
+else:
+    # personality traits
+    player_selection(ccv.personality_traits, mc, 'personality_traits', '### PERSONALITY TRAITS ###')
+
+    # most_valuable_person
+    player_selection(ccv.most_valuable_person, mc, 'most_valuable_person', '### MOST VALUABLE PERSON ###')
+
+    # most_valuable_thing
+    player_selection(ccv.most_valuable_thing, mc, 'most_valuable_thing', '### MOST VALUABLE ITEM ###')
+
+    # feelings_about_people
+    player_selection(ccv.feelings_about_people, mc, 'feelings_about_people', '### FEELINGS ABOUT PEOPLE ###')
+
+    # most_valuable_possession
+    player_selection(ccv.most_valuable_possession, mc, 'most_valuable_possession', '### MOST VALUABLE POSSESSION ###')
+
+
 
 def main():
 

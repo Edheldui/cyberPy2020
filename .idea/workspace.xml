@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adeb848e-29e4-495d-8514-1aedd2834e9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/character_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/character_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/character_creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/character_creation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/character_creation_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/character_creation_variables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/files/character_creation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="789">
-              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
               <folding>
                 <element signature="e#240#293#0" expanded="true" />
               </folding>
@@ -32,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="789">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/files/character_class.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -72,9 +70,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/files/classes.py" />
         <option value="$PROJECT_DIR$/files/new_character_creation.py" />
+        <option value="$PROJECT_DIR$/files/character_creation_variables.py" />
         <option value="$PROJECT_DIR$/files/character_class.py" />
         <option value="$PROJECT_DIR$/files/character_creation.py" />
-        <option value="$PROJECT_DIR$/files/character_creation_variables.py" />
       </list>
     </option>
   </component>
@@ -92,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +106,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523216977215</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Converted lifepath dictionary in Character() class.">
+      <created>1523221702655</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523221702655</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -346,7 +351,7 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16875" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8180862" />
@@ -375,7 +380,8 @@
     <MESSAGE value="converted .format() into fstrings." />
     <MESSAGE value="Added player selection for family background." />
     <MESSAGE value="Made random selection into a function and added random personal motivations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made random selection into a function and added random personal motivations." />
+    <MESSAGE value="Converted lifepath dictionary in Character() class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted lifepath dictionary in Character() class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,6 +389,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/files/character_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+          <folding>
+            <element signature="e#240#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/character_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/files/character_creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3667">
@@ -465,17 +495,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="44">
             <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -510,17 +540,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="36">
             <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -536,21 +566,21 @@
     <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="789">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/character_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/character_creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="789">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
           <folding>
             <element signature="e#240#293#0" expanded="true" />
           </folding>
