@@ -8,6 +8,7 @@ import dice  # module containing dice roll functions.
 import character_creation_variables as ccv  # contains lists and dictionaries for customization options.
 import character_class
 
+
 # Functions setup
 
 def player_selection(options_list, character_object, attr_to_change, title=''):
@@ -189,7 +190,6 @@ else:
 
     # most_valuable_possession
     player_selection(ccv.most_valuable_possession, mc, 'most_valuable_possession', '### MOST VALUABLE POSSESSION ###')
-
 
 
 def main():

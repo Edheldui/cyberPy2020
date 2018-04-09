@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adeb848e-29e4-495d-8514-1aedd2834e9e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cyberPy2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cyberPy2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/character_creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/character_creation.py" afterDir="false" />
     </list>
@@ -22,24 +24,6 @@
               <folding>
                 <element signature="e#240#293#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="character_creation_variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="character_class.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/character_class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -90,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,12 +91,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -342,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523221702655</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Converted lifepath dictionary in Character() class and added player selection for personality.">
+      <created>1523222040572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523222040572</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,7 +372,8 @@
     <MESSAGE value="Added player selection for family background." />
     <MESSAGE value="Made random selection into a function and added random personal motivations." />
     <MESSAGE value="Converted lifepath dictionary in Character() class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted lifepath dictionary in Character() class." />
+    <MESSAGE value="Converted lifepath dictionary in Character() class and added player selection for personality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted lifepath dictionary in Character() class and added player selection for personality." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -389,6 +381,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/files/character_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3952">
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="e#240#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/character_creation_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/character_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/files/character_creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3591">
